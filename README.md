@@ -1,2 +1,1 @@
-# LLM-Chatbot
-LLAMA-powered Chatbot
+# Q&A Chatbot
