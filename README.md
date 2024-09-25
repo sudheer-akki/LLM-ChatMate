@@ -1,6 +1,6 @@
 ### This app is an LLM-powered chatbot built using Streamlit and Langchain.
 
-**Chatmate API is powered by the Huggingface facebook/blenderbot-1B-distil LLM model**
+**Chatmate API is powered by the Huggingface LaMini-Flan-T5 LLM model**
 
 ### Instructions:
 1. Create environment
