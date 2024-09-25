@@ -1,0 +1,4 @@
+*.ipynb
+LLM_chatbot.py
+**/__pycache__/
+.env
