@@ -3,6 +3,6 @@ streamlit==1.38.0
 transformers==4.44.2
 langchain-community==0.3.0
 langchain-core==0.3.5
-torch==2.4.1
-torchvision==2.4.1
-torchaudio==0.19.1
+torch
+torchvision
+torchaudio
