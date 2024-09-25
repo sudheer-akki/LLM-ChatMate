@@ -1,6 +1,6 @@
 ### This app is an LLM-powered chatbot built using Streamlit and Langchain.
 
-**LLMChatmate API is powered by the Huggingface facebook/blenderbot-1B-distil LLM model**
+**Chatmate API is powered by the Huggingface facebook/blenderbot-1B-distil LLM model**
 
 ### Instructions:
 1. Create environment
@@ -29,9 +29,7 @@ python -m streamlit run app.py
 
 ### Disclaimer: 
 
-When you use this project, it means that you have agreed to the following requirements of the ChatMate API:
-
-This app was created exclusively for casual discussions. Kindly avoid from using it for any high-stack advice or gadgets. Your conversations will be accessible to model authors.
+When you use this project, it means that you have agreed to the following requirements of the ChatMate API. This app was created exclusively for casual discussions. Kindly avoid from using it for any high-stack advice or gadgets. Your conversations will be accessible to model authors.
 
 
 
