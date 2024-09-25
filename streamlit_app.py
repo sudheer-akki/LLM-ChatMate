@@ -13,9 +13,6 @@ st.title("💬ChatMate")
 st.write("A LLM powered Q&A Streamlit app")
 
 
-with st.sidebar:
-    st.title("Demo App")
-
 #clear chat history tab
 def clear_chat_history():
     st.session_state.messages = [{"role": "assistant", "content": "How may I assist you today?"}]
