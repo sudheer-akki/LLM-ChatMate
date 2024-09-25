@@ -1,20 +1,20 @@
-import os
 import streamlit as st
 from LLM_Model import local_llm
 import logging
+from langchain_core.messages import SystemMessage
+from langchain_core.prompts import HumanMessagePromptTemplate
+from langchain_core.prompts.prompt import PromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
 st.title("💬ChatMate")
-st.write("A LLM powered Streamlit app")
+st.write("A LLM powered Q&A Streamlit app")
 
 
-# Hugging Face Credentials
 with st.sidebar:
-    st.header('Hugging Face Login')
-    hf_email = st.text_input('Enter E-mail:', type='password')
-    hf_pass = st.text_input('Enter password:', type='password')
+    st.title("Demo App")
 
 #clear chat history tab
 def clear_chat_history():

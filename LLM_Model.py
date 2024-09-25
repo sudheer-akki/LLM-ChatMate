@@ -1,16 +1,12 @@
 from langchain.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
-import torch
 
-model_id = "facebook/blenderbot-1B-distill"
+
+model_id = "MBZUAI/LaMini-Flan-T5-248M"
 
 # Load model directly
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-
-if torch.cuda.is_available():
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_id,load_in_8bit = True)
-else:
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
 
 
 pipe = pipeline(
