@@ -27,12 +27,6 @@ python -m streamlit run app.py
 ```
 
 
-### Disclaimer: 
-
-This app was created exclusively for casual discussions. Kindly avoid from using it for any high-stack advice or gadgets.
-
-
-
 
 
 
