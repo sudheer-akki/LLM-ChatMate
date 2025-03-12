@@ -1,6 +1,6 @@
-### This app is an LLM-powered chatbot built using Streamlit and Langchain.
+### LLM-Powered chatbot built using Huggingface, Langchain and Streamlit.
 
-**Chatmate API is powered by the Huggingface LaMini-Flan-T5 LLM model**
+**Model: LaMini-Flan-T5 LLM**
 
 ### Instructions:
 1. Create environment
@@ -29,7 +29,7 @@ python -m streamlit run app.py
 
 ### Disclaimer: 
 
-When you use this project, it means that you have agreed to the following requirements of the ChatMate API. This app was created exclusively for casual discussions. Kindly avoid from using it for any high-stack advice or gadgets. Your conversations will be accessible to model authors.
+This app was created exclusively for casual discussions. Kindly avoid from using it for any high-stack advice or gadgets.
 
 
 
